@@ -1,0 +1,17 @@
+header {
+  h1 {
+    color: navy;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  h3 {
+    margin: 10px;
+    color: red;
+    text-decoration: double;
+  }
+  p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    -webkit-text-stroke: 2px rgb(68, 24, 24);
+    color: transparent;
+  }
+}

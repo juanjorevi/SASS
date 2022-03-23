@@ -1,0 +1,51 @@
+@import "header";
+@import "variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(122, 122, 76);
+}
+h1 {
+  color: $colorh1;
+}
+.hola {
+  padding: 1rem;
+  margin: 10px;
+  h2 {
+    color: $colorh2;
+    font-family: $letrah2;
+  }
+  p {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+.cosasporhace {
+  margin: 1rem;
+  h2 {
+    text-decoration: underline;
+    font-family: $letrah2;
+    color: $colorh2;
+  }
+  ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: lower-latin;
+  }
+}
+.cosashechas {
+  margin: 1rem;
+  h2 {
+    color: $colorh2;
+    font-family: $letrah2;
+  }
+  ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: decimal;
+  }
+}

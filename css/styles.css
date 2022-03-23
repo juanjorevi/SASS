@@ -1,0 +1,55 @@
+header h1 {
+  color: navy;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
+
+header h3 {
+  margin: 10px;
+  color: red;
+  text-decoration: double; }
+
+header p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  -webkit-text-stroke: 2px #441818;
+  color: transparent; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #7a7a4c; }
+
+h1 {
+  color: #703838; }
+
+.hola {
+  padding: 1rem;
+  margin: 10px; }
+  .hola h2 {
+    color: #296666;
+    font-family: Arial, Helvetica, sans-serif; }
+  .hola p {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+.cosasporhace {
+  margin: 1rem; }
+  .cosasporhace h2 {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #296666; }
+  .cosasporhace ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: lower-latin; }
+
+.cosashechas {
+  margin: 1rem; }
+  .cosashechas h2 {
+    color: #296666;
+    font-family: Arial, Helvetica, sans-serif; }
+  .cosashechas ul {
+    margin: 10px;
+    padding: 10px;
+    list-style: decimal; }
